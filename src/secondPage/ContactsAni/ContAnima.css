@@ -1,0 +1,32 @@
+.anannouncement {
+  background: #e28726;
+  font-family: "Inter";
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+  transition-duration: 10s;
+  font-weight: 600;
+
+  letter-spacing: -0.02em;
+}
+.announ {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.text1 > span {
+  margin-right: 20px;
+}
+.text2.span:not(:last-child) {
+  margin-right: 15px;
+}
+.text2 > span {
+  gap: 20px;
+  margin-left: -10px;
+  margin-right: 15px;
+}

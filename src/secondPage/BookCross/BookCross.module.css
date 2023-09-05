@@ -1,0 +1,67 @@
+.bookCross {
+  padding: 25px 15px 0px 15px;
+  width: 100%;
+}
+.Crossing {
+  margin: 0 auto;
+
+  max-width: 320px;
+  background: rgba(250, 250, 250, 1);
+}
+.whatIs {
+  position: relative;
+  max-width: 272px;
+  margin: 0 auto;
+}
+.whatIs > h1 {
+  font-family: "Merriweather";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.whatIs > img {
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  width: 251px;
+}
+p {
+  margin-top: 10px;
+  font-family: "Merriweather";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.Cross {
+  background: #fafafa;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px 15px 40px;
+  border-radius: 20px;
+  gap: 20px;
+  border: 1px solid rgba(192, 192, 192, 1);
+}
+.Cross > img {
+  width: 24px;
+  height: 29px;
+}
+.Cross > p {
+  font-family: "Merriweather";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  top: 7px;
+}

@@ -1,0 +1,87 @@
+.footer_container {
+  width: 100%;
+}
+.gmail_Add {
+  width: 100%;
+}
+.gmail_Add > p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 17px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #e28726;
+}
+.ahref {
+  margin-top: -15px;
+  text-align: center;
+  text-transform: none;
+  outline: none;
+}
+.ahref > a {
+  color: black;
+  margin-top: -15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.telNumber {
+  width: 100%;
+}
+.telNumber > h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #e28726;
+}
+.telNumber > ul {
+  text-align: center;
+}
+.telNumber > ul > ol {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+.adress > h5 {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #e28726;
+}
+.adress > p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 25px;
+}
+footer {
+  backdrop-filter: blur(20px);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}

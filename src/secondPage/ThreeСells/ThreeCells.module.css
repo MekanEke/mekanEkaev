@@ -1,0 +1,28 @@
+.share1 {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.share1 > img {
+  width: 100%;
+}
+.discover2 {
+  max-width: 320px;
+  margin: 16px auto;
+}
+.discover2 > img {
+  width: 100%;
+}
+.support3 {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.support3 > img {
+  width: 100%;
+}
+.OurPlaceImg {
+  max-width: 320px;
+  margin: 26px auto;
+}
+.OurPlaceImg > img {
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+.CaruselImage {
+  margin-top: 15px;
+  max-width: 320px;
+  height: 470px;
+  padding: 0px 15px;
+}
+.CaruselImage > img {
+  width: 100%;
+  border-radius: 15px;
+}
