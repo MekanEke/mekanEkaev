@@ -1,0 +1,102 @@
+.books {
+  width: 100%;
+  /* margin: 20px 10px 0px 10px; */
+
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+
+  padding: 20px;
+}
+.content {
+  /* width: 45%; */
+  background: rgb(255, 255, 255);
+
+  background-color: rgb(227, 225, 230);
+  padding: 5px;
+}
+.content > img {
+  width: 100%;
+}
+.block {
+  position: relative;
+}
+
+.rentedStrong {
+  background-color: rgb(230, 7, 7);
+  border-radius: 5px;
+  padding: 2px 10px;
+  position: absolute;
+  bottom: 106px;
+  left: 8px;
+}
+.availableStrong {
+  background-color: rgb(0, 255, 98);
+  border-radius: 5px;
+  padding: 2px 10px;
+  position: absolute;
+  bottom: 106px;
+  left: 8px;
+}
+
+.parag > p {
+  font-size: 11px;
+  font-weight: 300;
+  margin-bottom: 0;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #666262;
+  margin-top: 0px;
+}
+.span {
+  /* margin-top: -20px; */
+}
+.span > span {
+  font-size: 11px;
+  font-weight: 300;
+  /* margin-top: -50px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bookID {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background: #fff0d7;
+  /* font-size: 10px; */
+  max-width: 170px;
+
+  padding: 6px 9px;
+  border-radius: 9px;
+}
+.bookIdP > h5 {
+  text-align: end;
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: -8px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.id {
+  margin: 0;
+}
+.id > p {
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.boocIcon {
+  width: 13px;
+  height: 15px;
+  top: 1.8px;
+  left: 3px;
+  border: 0.1px;
+}
+.boocIcon > img {
+  width: 100%;
+  margin-left: -10px;
+}

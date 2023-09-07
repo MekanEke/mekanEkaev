@@ -5,10 +5,16 @@ import MainLayout from "./pages/MainLayout";
 import Book from "./pages/book/Book";
 
 import BookLibrary from "./pages/book/Library";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const App = () => {
   const [open, setOpen] = useState(false);
+
+  // const { getAll } = BooksAPI();
+  // useEffect(() => {
+  //   getAll();
+  // }, []);
+
   return (
     <BrowserRouter>
       <Routes>
